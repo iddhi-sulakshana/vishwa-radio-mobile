@@ -46,4 +46,9 @@ class AppColors {
   static Color whiteAlpha(double opacity) =>
       Colors.white.withValues(alpha: opacity);
   static Color orbitAlpha(double opacity) => orbit.withValues(alpha: opacity);
+
+  /// For the live badge, which dims rather than changes hue between its
+  /// off-air, on-air and playing states.
+  static Color signalAlpha(double opacity) =>
+      signal.withValues(alpha: opacity);
 }
