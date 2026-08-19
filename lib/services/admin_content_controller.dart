@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 
+import '../data/demo_content.dart';
 import '../models/podcast_episode.dart';
 import '../models/schedule_slot.dart';
 import '../models/site_settings.dart';
@@ -30,9 +31,13 @@ class AdminContentController extends ChangeNotifier {
   /// the real API functions are used, and the demo content is tree-shaken
   /// out entirely. Screenshot builds get the demo week instead of whatever
   /// test rows the console happens to be holding.
-  // TEMPORARY: the DemoContent wiring is restored in the demo-content commit.
   static final AdminContentController instance =
-      AdminContentController._internal();
+      AdminContentController._internal(
+    fetchSiteSettings:
+        DemoContent.enabled ? DemoContent.fetchSiteSettings : null,
+    fetchSchedule: DemoContent.enabled ? DemoContent.fetchSchedule : null,
+    fetchPodcasts: DemoContent.enabled ? DemoContent.fetchPodcasts : null,
+  );
 
   /// Only for tests — the real app always uses [instance].
   @visibleForTesting

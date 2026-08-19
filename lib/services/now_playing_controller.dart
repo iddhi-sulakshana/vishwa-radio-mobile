@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/widgets.dart';
 
+import '../data/demo_content.dart';
 import '../models/now_playing.dart';
 import 'admin_api_service.dart' as api;
 
@@ -21,8 +22,11 @@ class NowPlayingController extends ChangeNotifier with WidgetsBindingObserver {
   NowPlayingController._internal({Future<NowPlaying> Function()? fetch})
       : _fetch = fetch ?? api.fetchNowPlaying;
 
-  // TEMPORARY: the DemoContent wiring is restored in the demo-content commit.
-  static final NowPlayingController instance = NowPlayingController._internal();
+  /// Same compile-time gate as [AdminContentController.instance]: `null` in
+  /// every normal build, so the poller talks to the real console.
+  static final NowPlayingController instance = NowPlayingController._internal(
+    fetch: DemoContent.enabled ? DemoContent.fetchNowPlaying : null,
+  );
 
   /// Only for tests — the real app always uses [instance].
   @visibleForTesting
