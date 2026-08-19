@@ -37,4 +37,4 @@ flutter run
 | | |
 |---|---|
 | Package | `vishwa_radio` |
-| App ID | `lk.vishwaradio.app` (Android and iOS, kept in step deliberately) |
+| App ID | `com.vishwaradio.iddhidasanayaka` (Android and iOS, kept in step deliberately) |

@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "lk.vishwaradio.app"
+    namespace = "com.vishwaradio.iddhidasanayaka"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -16,7 +16,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "lk.vishwaradio.app"
+        applicationId = "com.vishwaradio.iddhidasanayaka"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

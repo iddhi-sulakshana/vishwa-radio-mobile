@@ -1,4 +1,4 @@
-package lk.vishwaradio.vishwa_radio
+package com.vishwaradio.iddhidasanayaka
 
 import io.flutter.embedding.android.FlutterActivity
 
