@@ -74,14 +74,12 @@ class AboutPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 18),
                     Text(
-                      'Established with a passion for broadcasting and a '
-                      'commitment to our vibrant campus community, our radio '
-                      'station is a dynamic platform for students, faculty '
-                      'and alumni to connect and engage. From insightful '
-                      'discussions on academics and research to entertaining '
-                      'shows featuring music and culture, we bring you '
-                      'content that resonates with listeners both near and '
-                      'far.',
+                      'We are a platform for organisations and individuals '
+                      'to share their achievements and their visions for a '
+                      'better world — feature stories on projects and '
+                      'initiatives, community events, and the personal '
+                      'experiences behind them, across education, health, '
+                      'the environment and the arts.',
                       style: AppText.archivo(
                         size: 14,
                         weight: FontWeight.w400,

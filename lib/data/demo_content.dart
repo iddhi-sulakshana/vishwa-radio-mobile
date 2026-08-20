@@ -53,9 +53,8 @@ class DemoContent {
         PodcastEpisode(
           title: 'Voices of Change · Episode 12',
           description:
-              'Sinhala classics from the hill country, pulled from the '
-              'station archive and introduced by students of the Faculty of '
-              'Arts.',
+              'Sinhala classics pulled from the station archive and '
+                            'introduced by the people who chose them.',
           audioUrl: _audio(1),
           imageUrl: _art('1483412033650-1015ddeb83d1'),
         ),
@@ -71,8 +70,8 @@ class DemoContent {
         PodcastEpisode(
           title: 'World Report · This Week in Development',
           description:
-              'Everything happening on the hill this week, in ten minutes — '
-              'faculty notices, results, and where to be on Thursday.',
+              'Everything that mattered this week, in ten minutes — '
+              'projects launched, milestones reached, and what comes next.',
           audioUrl: _audio(3),
           imageUrl: _art('1516280440614-37939bbacd81'),
         ),
@@ -88,7 +87,7 @@ class DemoContent {
           title: 'Community Voices · Starting Something',
           description:
               'New volunteers on starting out — the first week, the doubts, '
-              'the hills, and the first week of lectures.',
+              'the doubts, and the first week that changed things.',
           audioUrl: _audio(5),
           imageUrl: _art('1511671782779-c97d3d27a1d4'),
         ),
@@ -134,7 +133,7 @@ class DemoContent {
           ScheduleSlot(time: '08:00', title: 'Voices of Change'),
           ScheduleSlot(time: '10:00', title: 'World Report'),
           ScheduleSlot(time: '12:00', title: 'Midday Melodies'),
-          ScheduleSlot(time: '14:00', title: 'Lecture Hall Live'),
+          ScheduleSlot(time: '14:00', title: 'The Long Read'),
           ScheduleSlot(time: '16:00', title: 'Sindu Kamare'),
           ScheduleSlot(time: '18:00', title: 'Evening Sandhya'),
           ScheduleSlot(time: '20:00', title: 'Talk with the Dean'),
@@ -143,13 +142,13 @@ class DemoContent {
         'tuesday': const [
           _overnight,
           ScheduleSlot(time: '06:00', title: 'Morning Raga'),
-          ScheduleSlot(time: '08:00', title: 'Student Voices'),
+          ScheduleSlot(time: '08:00', title: 'Community Voices'),
           ScheduleSlot(time: '10:00', title: 'World Report'),
           ScheduleSlot(time: '12:00', title: 'Midday Melodies'),
           ScheduleSlot(time: '14:00', title: 'The Vishwa Interview'),
           ScheduleSlot(time: '16:00', title: 'Baila Hour'),
           ScheduleSlot(time: '18:00', title: 'Evening Sandhya'),
-          ScheduleSlot(time: '20:00', title: 'Science on the Hill'),
+          ScheduleSlot(time: '20:00', title: 'Science Now'),
           ScheduleSlot(time: '22:00', title: 'Night Owl Radio'),
         ],
         'wednesday': const [
@@ -158,19 +157,19 @@ class DemoContent {
           ScheduleSlot(time: '08:00', title: 'Voices of Change'),
           ScheduleSlot(time: '10:00', title: 'World Report'),
           ScheduleSlot(time: '12:00', title: 'Morning Vishwa'),
-          ScheduleSlot(time: '14:00', title: 'Faculty Roundtable'),
+          ScheduleSlot(time: '14:00', title: 'The Roundtable'),
           ScheduleSlot(time: '16:00', title: 'Sindu Kamare'),
           ScheduleSlot(time: '18:00', title: 'Evening Sandhya'),
-          ScheduleSlot(time: '20:00', title: 'Alumni Sessions'),
+          ScheduleSlot(time: '20:00', title: 'Late Sessions'),
           ScheduleSlot(time: '22:00', title: 'Night Owl Radio'),
         ],
         'thursday': const [
           _overnight,
           ScheduleSlot(time: '06:00', title: 'Morning Raga'),
-          ScheduleSlot(time: '08:00', title: 'Student Voices'),
+          ScheduleSlot(time: '08:00', title: 'Community Voices'),
           ScheduleSlot(time: '10:00', title: 'World Report'),
           ScheduleSlot(time: '12:00', title: 'Midday Melodies'),
-          ScheduleSlot(time: '14:00', title: 'Lecture Hall Live'),
+          ScheduleSlot(time: '14:00', title: 'The Long Read'),
           ScheduleSlot(time: '16:00', title: 'Sindu Kamare'),
           ScheduleSlot(time: '18:00', title: 'Evening Sandhya'),
           ScheduleSlot(time: '20:00', title: 'Music Hour'),
@@ -194,7 +193,7 @@ class DemoContent {
           ScheduleSlot(time: '08:00', title: 'Weekend Wake-Up'),
           ScheduleSlot(time: '10:00', title: 'Sindu Kamare'),
           ScheduleSlot(time: '12:00', title: 'Midday Melodies'),
-          ScheduleSlot(time: '14:00', title: 'Sports on the Hill'),
+          ScheduleSlot(time: '14:00', title: 'Sports Weekly'),
           ScheduleSlot(time: '16:00', title: 'Voices of Change'),
           ScheduleSlot(time: '18:00', title: 'Open Air Theatre'),
           ScheduleSlot(time: '21:00', title: 'Late Night Baila'),

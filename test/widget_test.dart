@@ -8,7 +8,7 @@ void main() {
     await tester.pumpWidget(const MyApp());
     await tester.pump();
 
-    // The station has no FM frequency, so the splash carries the university
+    // The station has no FM frequency, so the splash carries the foundation
     // line alone — see the removed "88.4 FM" assertion this replaced.
     expect(find.text('WOODROSE FOUNDATION'), findsOneWidget);
   });

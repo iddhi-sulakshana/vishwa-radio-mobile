@@ -344,7 +344,7 @@ class _NoVideoStreamCard extends StatelessWidget {
                 const SizedBox(height: 6),
                 Text(
                   'The station goes live on video only for the occasional '
-                  'campus event. When it does, it plays right here. The live '
+                  'broadcast. When it does, it plays right here. The live '
                   'audio stream is always on the Radio screen.',
                   style: AppText.archivo(
                       size: 12,
