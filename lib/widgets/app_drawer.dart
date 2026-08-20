@@ -9,13 +9,13 @@ import '../theme/app_text_styles.dart';
 /// Google Play requires the privacy policy to be reachable from inside the
 /// app as well as from the store listing, so the drawer carries both policy
 /// links in its footer.
-// NOTE: neither page exists on vishwaradio.lk yet — both return 404 today.
-// They are pointed at their canonical URLs rather than removed, because both
-// app stores require a reachable privacy policy before submission, and a
-// missing link here would hide that requirement instead of surfacing it.
-// Create the two pages on the website before the first store release.
-const _privacyPolicyUrl = 'https://vishwaradio.lk/privacy-policy';
-const _termsUrl = 'https://vishwaradio.lk/terms';
+// NOTE: neither page exists yet — both return 404 today. They are pointed at
+// their canonical URLs rather than removed, because both app stores require a
+// reachable privacy policy before submission, and a missing link here would
+// hide that requirement instead of surfacing it. Create the two pages on the
+// website before the first store release.
+const _privacyPolicyUrl = 'https://vishwa-radio.vercel.app/privacy-policy';
+const _termsUrl = 'https://vishwa-radio.vercel.app/terms';
 
 /// The slide-in navigation panel content (emblem header, nav items, policy
 /// links). Rendered inside [AppScaffold]'s overlay.

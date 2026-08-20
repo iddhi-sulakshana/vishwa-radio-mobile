@@ -18,7 +18,7 @@ class AdminConfig {
 
   static const baseUrl = String.fromEnvironment(
     'ADMIN_BASE_URL',
-    defaultValue: 'https://vishwaradio.lk',
+    defaultValue: 'https://vishwa-radio.vercel.app',
   );
 
   static const apiKey = String.fromEnvironment('ADMIN_API_KEY');
