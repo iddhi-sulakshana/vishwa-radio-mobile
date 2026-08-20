@@ -55,7 +55,7 @@ class _RadioBody extends StatelessWidget {
                       const LivePill(),
                     ],
                   ),
-                  Image.asset('assets/vishwa-radio-light.png', height: 46),
+                  Image.asset('assets/woodrose-logo-light.png', height: 58),
                 ],
               ),
             ),
@@ -100,9 +100,9 @@ class _RadioBody extends StatelessWidget {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Image.asset(
-                                    'assets/woodrose-logo-light.png',
-                                    width: 168,
-                                    height: 168,
+                                    'assets/vishwa-radio-light.png',
+                                    width: 236,
+                                    fit: BoxFit.contain,
                                   ),
                                   const SizedBox(height: 78),
                                   Text(
